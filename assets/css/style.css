@@ -16,13 +16,13 @@ header .jumbotron {
 }
 
     
-   hr {
+   .jumbotron hr {
        
        color: white;
        border-top: 0.3rem solid white;
    }
 
-   .about hr {
+   .about hr, .experience hr {
        color: black;
        border-top: 0.2rem solid black;
        width: 15%;
