@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-    <!--Google Fonts-->    
+    <!--Google Fonts-->
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;1,300&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
 
     <!--Mi estilo-->
 
@@ -38,16 +38,17 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link text-white" href="#">Sobre mi <span class="sr-only">(current)</span></a>
+                        <a class="nav-link text-white" href="#aboutme">Sobre mi <span
+                                class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Experiencia</a>
+                        <a class="nav-link text-white" href="#experience">Experiencia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Trabajos</a>
+                        <a class="nav-link text-white" href="#proyects">Trabajos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contacto</a>
+                        <a class="nav-link text-white" href="#contact">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -56,54 +57,65 @@
 
     <header>
 
-        <div class="jumbotron">
-           <div class="text-im mt-5">
-            <h2 class="display-3">Yo soy</h2>
-            <hr class="my-3 mx-3">
-            <h1 class="display-3">Nicolás</h1>
-        </div>  
-           
+        <div class="jumbotron mt-5">
+            <div class="text-im mt-5">
+                <h2 class="display-3 text-white">Yo soy</h2>
+                <hr class="my-3 mx-3">
+                <h1 class="display-3 text-white">Nicolás</h1>
+            </div>
+
         </div>
 
     </header>
 
-    <section class="about">
+    <section id="aboutme" class="about">
 
-       <div class="container px-5">
-          
-        <div class="about-title py-3 font-weight-bold">
-          <h2 class="text-center ">Sobre mi</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At animi enim accusamus quo debitis nam consequatur nemo esse? Culpa explicabo placeat quibusdam officia eligendi rerum aliquid sequi hic nobis in.</p>
+        <div class="container px-5">
 
-          <hr class="w-20">
+            <div class="about-title py-3 font-weight-bold">
+                <h2 class="text-center ">Sobre mi</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At animi enim accusamus quo debitis nam
+                    consequatur nemo esse? Culpa explicabo placeat quibusdam officia eligendi rerum aliquid sequi hic
+                    nobis in.</p>
+
+                <hr class="w-20">
+
+            </div>
+
+            <div class="row pt-4 ">
+
+                <div class="col-sm-6">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, dignissimos? Ipsum
+                        voluptate et tempora veniam cum sequi ea, omnis eveniet aperiam sint, cumque, odit asperiores
+                        deleniti aspernatur optio quo architecto. Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Rerum corrupti culpa a veniam ex doloremque libero repellendus numquam dolor dignissimos
+                        perferendis id voluptas, facere inventore et, officiis ea exercitationem quis!</p>
+                </div>
+
+                <div class="col-sm-6">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, dignissimos? Ipsum
+                        voluptate et tempora veniam cum sequi ea, omnis eveniet aperiam sint, cumque, odit asperiores
+                        deleniti aspernatur optio quo architecto. Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Rerum corrupti culpa a veniam ex doloremque libero repellendus numquam dolor dignissimos
+                        perferendis id voluptas, facere inventore et, officiis ea exercitationem quis!</p>
+                </div>
+
+            </div>
 
         </div>
-
-         <div class="row pt-4 ">
-
-             <div class="col-sm-6">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, dignissimos? Ipsum voluptate et tempora veniam cum sequi ea, omnis eveniet aperiam sint, cumque, odit asperiores deleniti aspernatur optio quo architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum corrupti culpa a veniam ex doloremque libero repellendus numquam dolor dignissimos perferendis id voluptas, facere inventore et, officiis ea exercitationem quis!</p>
-             </div>
-
-             <div class="col-sm-6">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, dignissimos? Ipsum voluptate et tempora veniam cum sequi ea, omnis eveniet aperiam sint, cumque, odit asperiores deleniti aspernatur optio quo architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum corrupti culpa a veniam ex doloremque libero repellendus numquam dolor dignissimos perferendis id voluptas, facere inventore et, officiis ea exercitationem quis!</p>
-             </div>
-
-         </div>
-
-        </div>   
 
 
     </section>
 
-    <section class=" experience text-center mt-5" >
+    <section id="experience" class=" experience text-center mt-5">
         <h2>Mi Experiencia</h2>
-            <hr>
+        <hr>
 
         <div class="row mx-5">
-            
+
             <div class="col-sm-6 text-center">
-                <i class="fas fa-cubes fa-5x" data-toggle="tooltip" data-placement="right" title="Modelado en Blender y Freecad"></i>
+                <i class="fas fa-cubes fa-5x" data-toggle="tooltip" data-placement="right"
+                    title="Modelado en Blender y Freecad"></i>
                 <h3>Modelado 3D</h3>
                 <p>2016-2020</p>
 
@@ -111,7 +123,8 @@
             </div>
 
             <div class="col-sm-6 text-center">
-                <i class="fab fa-wordpress fa-5x" data-toggle="tooltip" data-placement="right" title="Manejo en el CMS más extendido"></i>
+                <i class="fab fa-wordpress fa-5x" data-toggle="tooltip" data-placement="right"
+                    title="Manejo en el CMS más extendido"></i>
                 <h3>Wordpress</h3>
                 <p>2019-2020</p>
 
@@ -123,12 +136,12 @@
 
     </section>
 
-    <section class="proyects mt-5 bg-secondary py-5">
+    <section id="proyects" class="proyects mt-5 bg-secondary py-5">
         <h2 class="display-4 text-center text-white">Mis últimos trabajos</h2>
         <hr class="w-25">
         <div class="container px-5">
             <div class="card-deck mt-4">
-                <div class="card">
+                <div class="card" data-toggle="modal" data-target="#myModal-0">
                     <img src="assets/img/meet_coffee.png" class="card-img-top" alt="imagen meet & coffee">
                     <div class="card-body">
                         <h5 class="card-title">Meet & Coffee</h5>
@@ -136,7 +149,7 @@
                             additional content. This content is a little bit longer.</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-toggle="modal" data-target="#myModal-1">
                     <img src="assets/img/suricata.png" class="card-img-top" alt="imagen suricata">
                     <div class="card-body">
                         <h5 class="card-title">Suricata</h5>
@@ -145,7 +158,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-toggle="modal" data-target="#myModal-2">
                     <img src="assets/img/iguana_page.png" class="card-img-top" alt="imagen iguana page">
                     <div class="card-body">
                         <h5 class="card-title">Iguana page</h5>
@@ -157,7 +170,7 @@
                 </div>
             </div>
             <div class="card-deck mt-5">
-                <div class="card">
+                <div class="card" data-toggle="modal" data-target="#myModal-3">
                     <img src="assets/img/cuppon.png" class="card-img-top" alt="imagen cuppon">
                     <div class="card-body">
                         <h5 class="card-title">Cuppon</h5>
@@ -165,7 +178,7 @@
                             additional content. This content is a little bit longer.</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-toggle="modal" data-target="#myModal-4">
                     <img src="assets/img/ricomida.png" class="card-img-top" alt="imagen ricomida">
                     <div class="card-body">
                         <h5 class="card-title">Ricomida</h5>
@@ -174,7 +187,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-toggle="modal" data-target="#myModal-5">
                     <img src="assets/img/dmark.png" class="card-img-top" alt="imagen dmark">
                     <div class="card-body">
                         <h5 class="card-title">Dmark</h5>
@@ -186,13 +199,159 @@
                 </div>
             </div>
         </div>
+
+        <!-- Modal -->
+        <div id="myModal-0" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Meet & Coffee</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perferendis modi, ipsa,
+                            sapiente officiis facere ea consequatur earum iusto quasi quis vitae mollitia velit dolore,
+                            reiciendis placeat facilis ullam natus?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Modal -->
+        <div id="myModal-1" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Suricata</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt facilis fuga aliquam eos
+                            dignissimos enim veniam eum nisi, a suscipit eligendi fugiat iste magnam nemo saepe officiis
+                            eaque? Soluta, cum.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div id="myModal-2" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Iguana page</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi. Sequi quibusdam
+                            odio quam eum aperiam voluptate rem ratione corporis quasi nisi, officia odit sed fugiat
+                            doloremque. Quasi, tenetur minima?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div id="myModal-3" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Cuppon</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id magnam rem itaque dolorum
+                            consequatur, saepe corporis beatae quam libero fugit unde velit dolorem quia, provident
+                            consequuntur omnis perspiciatis cumque quidem!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div id="myModal-4" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Ricomida</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae sed ipsam perferendis
+                            blanditiis ut? Excepturi fuga magni debitis nobis quibusdam blanditiis optio porro sit
+                            explicabo dicta reiciendis, dolores mollitia laborum.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div id="myModal-5" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Dmark</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dicta laboriosam iusto,
+                            vitae eaque omnis optio ex deserunt beatae dolore expedita ab assumenda, ea sint cum
+                            aspernatur ut ad neque.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </section>
 
-    <section class="contact">
+
+
+
+
+    <section id="contact" class="contact">
         <h2 class="display-4 text-center mt-5 text-dark">Contacto</h2>
         <hr class="w-25">
         <div>
-            <div class="typeform-widget" data-url="https://form.typeform.com/to/dCPdCq72" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=dCPdCq72&utm_source=typeform.com-01EQ29T0VE4V8RCGA5CJB2R3BV-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+            <div class="typeform-widget" data-url="https://form.typeform.com/to/dCPdCq72"
+                style="width: 100%; height: 500px;"></div>
+            <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
+            <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by
+                <a href="https://admin.typeform.com/signup?utm_campaign=dCPdCq72&utm_source=typeform.com-01EQ29T0VE4V8RCGA5CJB2R3BV-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN"
+                    style="color: #999" target="_blank">Typeform</a> </div>
         </div>
     </section>
 

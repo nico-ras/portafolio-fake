@@ -4,8 +4,12 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header .jumbotron {
-    background-image: url('../img/iguana_page.png');
+    background-image: url('../img/design1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -46,6 +50,8 @@ footer .icons {
 
 .icons a {
     text-decoration: none;
-    color: #FFFFFF
+    color: #FFFFFF;
+
+}
 
    
